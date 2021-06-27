@@ -3,7 +3,7 @@ apiVersion: pipecd.dev/v1beta1
 kind: TerraformApp
 spec:
   input:
-    terraformVersion: 1.0.0
+    terraformVersion: 0.15.5
   pipeline:
     stages:
       - name: TERRAFORM_PLAN
