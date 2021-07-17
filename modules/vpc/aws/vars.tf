@@ -1,3 +1,7 @@
+variable "provider_region" {
+  default = "eu-west-1"
+}
+
 variable "name" {
   default = "example-vpc"
 }
